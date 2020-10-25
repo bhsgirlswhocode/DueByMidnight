@@ -22,8 +22,15 @@ Future improvements:
   A better scheduling system
   A way to see active friends and projects/creating projects/assignments
   
-Documentation on how to build/run the project:
-We had 7 files for HTML, 1 for JavaScript, 1 for CSS, and several other test files while experimenting with the different sections of the website. Our project is best run on repl.it.
+Issues:
+  Not all of the navigation links work correctly
+  Calendar does not let you add unless through Google Calendar (only view)
+  login and other user input areas are not functional
+  
+Documentation on how to build/run the project and File Structure:
+We had 7 files for HTML, 1 for JavaScript, 1 for CSS, and several other test files while experimenting with the different sections of the website. The HTML files contain the different pages of the website. 
+
+Our project is best run on repl.it.
 
 A statement on which languages/frameworks/libraries were used:
 HTML, Bootstrap, CSS, Javascript
