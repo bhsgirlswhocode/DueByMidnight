@@ -13,3 +13,8 @@ Future improvements:
   A proper messaging system
   A better scheduling system
   A way to see active friends and projects/creating projects/assignments
+Documentation on how to build/run the project:
+We had 7 files for HTML, 1 for JavaScript, 1 for CSS, and several other test files while experimenting with the different sections of the website.
+A statement on which languages/frameworks/libraries were used:
+HTML, Bootstrap, CSS, Javascript, 
+
