@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head id="home">
-    <title>Home</title>
+
+  <head id="activepeople">
+    <title>Active Friends</title>
      <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,8 +12,10 @@
     <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   </head>
+
   <body>
-<!--NAVBAR-->
+
+<!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Due Before Midnight</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,23 +64,63 @@
   </div>
 </nav>
 
-<!--How to use-->
-<h5> <b> Home Page </h5> </b>
-<p> </p>
-<h6> <b>How to Use </h6> </b>
-<p> Calendar, communication, and project organizing system all in one. Click the navigation bar to explore through the website. Under the people tab, you can see your friends list, who is active, and who is not. Under the project tab, you can see you and your fellow teammates' calenders and what time is the best time to work together.</p>
-<!--Add image-->
-<img src="https://thumbs.dreamstime.com/b/person-who-working-learning-online-laptop-computer-desk-house-s-garden-181808886.jpg" alt="person working on a computer" style="width:960px;height:500px;">
-<!--Add space-->
-<p> </p>
-<!--Our purpose-->
-<h6> <b> Our Purpose </h6> </b>
-<p> <b> Due Before Midnight's </b> purpose is to help people organize project info and to communicate with teammates. We wanted to create this website to make it easy to find the best times to work on group projects together, especially during distance learning. We have also integrated our calender system with Google Calendars to make it very easy to add events and merge calenders together. </p>
+<h5> <b> Active Friends </h5> </b>
 
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Type</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      <th scope="row">Active</th>
+      <td> 3 </td>
+      <td>Email</td>
+      <td>Username</td>
+    </tr>
+    <tr>
+    <tr class="table-primary">
+      <th scope="row">Colton</th>
+      <td></td>
+      <td>ColtonWalash@my.cuhsd.org</td>
+      <td>IcreateCults</td>
+    </tr>
+    <tr class="table-success">
+      <th scope="row">Rebecca</th>
+      <td></td>
+      <td>RebeccaSmith@my.cuhsd.org</td>
+      <td>MyFatherisAblacksmith</td>
+    </tr>
+    <tr class="table-warning">
+      <th scope="row">Jimmy</th>
+      <td></td>
+      <td>JimmyAndersson@my.cuhsd.org</td>
+      <td>IamNotRelatedToMr.Andersson</td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">Not Active</th>
+      <td> 2 </td>
+      <td>Email</td>
+      <td>Username</td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">Kathy</th>
+      <td></td>
+      <td>KathyGym@my.cuhsd.org</td>
+      <td>DontTouchmyGym</td>
+    </tr>
+    <tr class="table-info">
+      <th scope="row">Mx.Table</th>
+      <td></td>
+      <td>MrTable@my.cuhsd.org</td>
+      <td>ListenToMe_OrIgiveYouAnF</td>
+    </tr>
+  </tbody>
+  </table>
+
   </body>
-
 </html>
