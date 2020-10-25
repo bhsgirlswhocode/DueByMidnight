@@ -2,7 +2,7 @@
 Calendar, communication, and project organizing system all in one. Our purpose is to help people organize project info and to communicate with teammates. We wanted to create this website to make it easy to find the best times to work on group projects together, especially during distance learning.
 
 How to Use:
-Click the navigation bar to explore through the website. Under the people tab, you can see your friends list, who is active, and who is not. Under the project tab, you can see you and your fellow teammates' calenders and what time is the best time to work together.
+Click the navigation bar to explore through the website. Under the people tab, you can see your friends list, who is active, and who is not. Under the project tab, you can see you and your fellow teammates' calenders and what time is the best time to work together. For the Calendar, users must create a new Google Calendar and add their friends.
 
 The names of your team members:
   Haley Groesbeck, Jada Klein, Poorvi Sangli, Maisie Wong
@@ -26,6 +26,7 @@ Issues:
   Not all of the navigation links work correctly
   Calendar does not let you add unless through Google Calendar (only view)
   login and other user input areas are not functional
+  Calculation does not work (for "Optimal Time to work together")
   
 Documentation on how to build/run the project and File Structure:
 We had 7 files for HTML, 1 for JavaScript, 1 for CSS, and several other test files while experimenting with the different sections of the website. The HTML files contain the different pages of the website. 
